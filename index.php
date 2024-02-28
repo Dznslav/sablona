@@ -33,14 +33,18 @@
         <div class="slide fade">
           <img src="img/banner1.jpg">
           <div class="slide-text">
-            Prvý nadpis
+            Tuz
           </div>
         </div>
         
         <div class="slide fade">
           <img src="img/banner2.jpg">
           <div class="slide-text">
-            Druhý nadpis
+            <?php
+            echo "<h1>Henlo world</h1>";
+            echo "Dnes je " . date("d.m.Y") . "<br>";
+            echo "Aktuálny čas je " . date("H:i:s") . "<br>";
+            ?>
           </div>
         </div>
         
